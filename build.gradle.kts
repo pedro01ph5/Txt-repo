@@ -35,12 +35,12 @@ subprojects {
     apply(plugin = "com.lagradost.cloudstream3.gradle")
 
     cloudstream {
-        setRepo("https://github.com/saimuelbr/saimuelrepo/main")
-        authors = listOf("saimuelbr")
+        setRepo("https://github.com/pedro01ph5/Txt-repo")
+        authors = listOf("texttv")
     }
 
     android {
-        namespace = "com.saimuelbr"
+        namespace = "com.texttv"
 
         defaultConfig {
             minSdk = 21
